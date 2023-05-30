@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name: Exotux Estate Custom Elements
+ * Plugin Name: Exotic Estate Custom Elements
  * Plugin URI: https://exotic-estate.com/
  * Description: ALPHA - NOT TO BE USED IN PRODUCTION
  * Author: Skyler
@@ -23,7 +23,7 @@ add_action(
             getDirectoryPathRelativeToPluginFolder(__DIR__) . '/elements',
             'BreakdanceCustomElements',
             'element',
-            'Custom Elements',
+            'EE Custom Elements',
             false
         );
 
